@@ -13,12 +13,26 @@ span.fav
 	color: orange;
 }
 
-#main
+body
 {
-	width: 65%;
+	display: block;
 }
 
-#side
+#main
 {
-	width: 30%;
+	max-width: 65%;
+	float: left;
+}
+
+#sidebar
+{
+	max-width: 30%;
+	float: left;
+	font-size: 2em;
+}
+
+footer
+{
+	width: 40%;
+	float: left;
 }
